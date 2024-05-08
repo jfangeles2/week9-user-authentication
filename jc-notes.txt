@@ -1,0 +1,24 @@
+I checked firebase --version to see if it is working
+
+I used the command flutter run so it will download all the dependencies
+
+I linked activated flutterfire in the project using the commands
+
+    firebase login
+    dart pub global activate flutterfire_cli
+
+then add flutterfire to the path if it is not yet added
+
+I then run 
+    flutterfire configure --project=name-of-your-firebase-project
+to create the file firebase_options.dart
+
+
+Fix the following in order:
+main.dart
+    create the UserAuthProvider class with the filename auth_provider
+
+create firebase_auth_api.dart
+
+firebase_auth_api
+    
